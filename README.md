@@ -39,7 +39,7 @@ thall : thalium stress test result(0-3)
 
 output : target variable (0 = less chance of heart attack, 1= more chance of heart attack)
 
-## Conlusion:
+## Conlusion of EDA:
 1. Total number of cases with typical angina chest pain approximately is equal to sum of the atypical angina, non-anginal pain and asymptomatic chest pain.
 
 2. The dataset is more for age between 40-65.
@@ -67,3 +67,15 @@ output : target variable (0 = less chance of heart attack, 1= more chance of hea
 13. People with higher maximum heart rate have higher chances of heart attack.
 
 14. People with lower pevious peak achieved have higher probability of heart attack.
+
+## Conclusion of Prediction:
+
+1. The best models are Logistic Regression and SVM (after hyperparameter tuning) with accuracy of 90%.
+
+2. Accuracy of other models:
+
+- Gradient Boosting 86%
+
+- Random Forest: 83%
+
+- Decision Tree / SVM without hyperparameter tuning 72%
